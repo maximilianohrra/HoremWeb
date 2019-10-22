@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    background-image:url('../img/fondo/cuero.jpg');
+    width: 700;
+    height: 500;
+    margin: 0 auto;
+  }
+  /*COLOR DEL TEXTO*/
+  p {
+    color: rgba(252, 252, 252, 0.932);
+
+    font-size: 100%;
+    line-height: 155%;
+    padding: 0;
+    text-indent: 2%;
+    text-align: center;
+  }
+  /*TITULOS*/
+  h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 175%;
+    line-height: 155%; 
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    /*text-transform: uppercase;*/
+    padding: 0;
+  }
+  /*Etiquetas*/
+  a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    font-size: 90%;
+        
+  }
+  
+  /*COLOR DEL COPIRIGHT 
+  a:hover {
+    color: rgb(34, 88, 48);
+  }*/
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+    
+  }
+  /*contenedor gral*/
+  #wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /*banner del contendor gral*/
+  #banner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+  }
+  /*navegacion + slider*/
+  /*header {
+    /*width: 1000%;
+    height: 150px;
+    top: 0;
+    left: 0;
+  }*/
+  /*SLIDER CONFIG*/
+  .slider{
+  width: 95%;
+  margin:auto;
+  overflow: hidden;
+  }
+  /*SLIDER ANIMATION*/
+  .slider ul{
+    display: flex;
+    padding: 0%;
+    width:300%;
+    animation: cambio 10s infinite alternate;
+    
+  }
+  .slider li{
+    width: 100%;
+    list-style: none;
+  }
+  .slider img{
+    width: 100%;
+  }
+  /*CONFIGURACION DEL DESPLAZAMIENTO*/
+  @keyframes cambio {
+    20% {margin-left:0% ;}
+    25% {margin-left:0% ;}
+
+    45% {margin-left:-100% ;}
+    50% {margin-left:-100% ;}
+
+    70% {margin-left:-200%;}
+    100% {margin-left:-200% ;}
+
+    /*75% {margin-left:-300% ;}
+    100% {margin-left:-300% ;}*/
+  }
+  /*logo horem*/
+  header #logo img{
+    margin: 10px;
+    float: left;
+    width: 140px;
+    
+  }
+  
+  /* NAVEGACION CON TITULOS*/
+  nav {
+    float: right;
+    padding: 25px 20px 0px 0px;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  #menu-icon {
+    display: none;
+    font-size: 50px;
+  }
+  
+  ul {
+    list-style: none; /*quita los puntitos del listado*/
+    margin: 0px; 
+    padding: 0px;
+  }
+  
+  nav ul li {
+    font-size: 150%;
+    display: block;
+    float: left;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+
+  }
+
+
+  /*COLOR OPCIONES ARRIBA DERECHA*/
+  nav ul li a {
+    color:rgb(0, 0, 0);
+  }
+
+
+  /*OPCIONES DE TITULOS DE NAVEGACION***/
+  ul li ul li{
+    display:none;
+    font-size:20px;
+  }
+  /*DESPLIEGUE CON POSICION DE MOUSE****/
+  ul li:hover ul li{
+    display: block;
+    text-align: match-parent;
+  }
+  /*COLOR DEL REMARCADO DE OPCION ARRIBA DERECHA*/
+  .current {
+    color: rgba(0, 0, 0, 0.315);
+    
+  }
+  
+  a:hover {
+    color: #f7dc48;
+  }
+  /*
+  .slider {
+    max-width: 1200px;
+  }
+  .slider img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }*/
+  
+  .one-third {
+    width: 31.5%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .icon-wrap {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    background-color: #98ff9de1;
+    border-radius: 125px;
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .icon-wrap i {
+    text-align: center;
+    color: #ffffff;
+    font-size: 450%;
+    padding: 20%;
+  }
+  
+  /* SECTION 2*/
+  .left-col {
+    float: left;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding: 1%;
+  }
+  
+  .sidebar {
+    float: right;
+    margin: 0 auto;
+    width: 32%;
+    height: auto;
+    padding: 1%;
+  }
+  
+  /* ONE THIRD PADDING*/
+  .one-third-padding {
+    width: 30%;
+    float: inline-start;
+    margin: 5% 35%;
+  }
+  
+  .clearfix-padding {
+    clear: both;
+    padding: 2%;
+  }
+  
+  footer {
+    background: #2c3e50;
+    width: 100%;
+    overflow: auto;
+  }
+  .icon-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+  }
+  .icon-text-text {
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+    font-size:
+  }
+  
+  .footer-nav {
+    text-align: right;
+  }
+  
+  .footer-nav a {
+    font-size: 160%;
+    color: #c3d7df;
+    font-weight: 300;
+  }
+  
+  .footer-nav a:hover {
+    color: #f5f5f5;
+  }
+  
+  .social {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .social li {
+    display: inline;
+  }
+  
+  .social i {
+    font-size: 420%;
+    margin: 1%;
+    padding: 5%;
+    color: #98ff9de1;
+  }
+  
+  .social i:hover {
+    color: #f5f5f5;
+  }
+  
+  footer.second {
+    border-top: 1px solid #aadcd2;
+    text-align: center;
+    margin: 0;
+  }
+  footer.second p, .second a {
+    text-align: center;
+    color: #fff;
+    font-size: 160%;
+    line-height: 155%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 130%;
+    }
+    h3 {
+      font-size: 150%;
+    }
+    header {
+      height: 80px;
+      position: relative;
+    }
+    header #logo {
+      margin: 15px 0 20px -25px;
+    }
+  
+    #menu-icon {
+      display: inline-block;
+    }
+  
+    nav:hover ul {
+      display: block;
+    }
+  
+    nav ul, nav:active ul {
+      display: none;
+      z-index: 1000;
+      position: absolute;
+      padding: 20px;
+      background: #f5f5f5;
+      border: 1px solid #a5bdcd;
+      right: 20px;
+      width: 30%;
+      opacity: .95;
+    }
+    nav li {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .one-third {
+      float: left;
+      width: 100%;
+  
+    }
+    .icon-wrap {
+      height: 80px;
+      width: 80px;
+      margin-top: 3%;
+    }
+  
+    .icon-wrap i {
+      font-size: 250%;
+      padding-top: 27%;
+    }
+  
+    .left-col {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  
+    .one-third-padding {
+      width: 98%;
+      margin: 0;
+      padding: 1%;
+    }
+  
+    .icon-text-icon {
+      width: 100%;
+      padding: 0 0 2% 0;
+    }
+  
+    .icon-text-text {
+      width: 100%;
+      padding: 2% 0 0 0;
+      font-size: 80%;
+    }
+  
+    .footer-nav {
+      margin: 0 auto;
+      text-align: center;
+      padding: 5%;
+    }
+  
+    .footer-nav li {
+      padding: 1%;
+    }
+  
+  }
+.fondo{ 
+  
+}    
