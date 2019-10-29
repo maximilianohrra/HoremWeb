@@ -5,10 +5,14 @@
   }
   
   body {
-    background-image:url('../img/fondo/fashonmodel2.jpg');
-    width: 700;
-    height: 500;
+    background-image:url('../img/fondo/fashonfondo.jpg');
+    width: 100%; /*ancho*/
+    height: 100%; /*altura*/
     margin: 0 auto;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 100%
+    
     
   }
   /*COLOR DEL TEXTO*/
@@ -28,6 +32,7 @@
     line-height: 155%; 
     font-weight: 500;
     color: rgba(223, 51, 51, 0.603);
+    /*background: rgb(255, 255, 255);*/
     text-align: center;
     /*text-transform: uppercase;*/
     padding: 0;
@@ -54,17 +59,18 @@
     margin-bottom: -4px;
     
   }
+  /*banner del contendor gral*/
+  #banner-wrapper {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0 0 25% 0;
+  }
   /*contenedor gral*/
   #wrapper {
     max-width: 1200px;
     margin: 0 auto;
   }
-  /*banner del contendor gral*/
-  #banner-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 0 3% 0;
-  }
+  
   /*navegacion + slider*/
   /*header {
     /*width: 1000%;
@@ -74,8 +80,8 @@
   }*/
   /*SLIDER CONFIG*/
   .slider{
-  width: 95%;
-  margin:auto;
+  width: 250%;
+  margin: -6cm;
   overflow: hidden;
   }
   /*SLIDER ANIMATION*/
@@ -154,11 +160,14 @@
   ul li ul li{
     display:none;
     font-size:15px;
+    
   }
   /*DESPLIEGUE CON POSICION DE MOUSE****/
   ul li:hover ul li{
     display: inline-block;
     text-align: right;
+    
+    
   }
   /*COLOR DEL REMARCADO DE OPCION ARRIBA DERECHA*/
   .current {
@@ -242,16 +251,17 @@
     margin: 0 auto;
   }
   
-  .icon-text-icon {
-    float: left;
-    width: 20%;
+  /*.icon-text-text {
+    float: auto;
+    width: 10%;
     padding: 4%;
-  }
-  .icon-text-text {
-    float: left;
-    width: 60%;
+  }*/
+  /*ICONOS DE FOOTER*/
+  .icon-text-icon {
+    float: center;
+    width: 100%;
     padding: 4% 4% 2% 0;
-    font-size:
+    
   }
   
   .footer-nav {
@@ -391,7 +401,6 @@
       padding: 1%;
     }
   
-  }
+}
 
   
-}   
